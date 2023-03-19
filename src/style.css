@@ -13,10 +13,11 @@ h4 {
   margin-top: 10px;
   text-align: center;
 }
-#about-me {
+#contact-me {
   display: block;
   margin: auto;
   width: fit-content;
+  margin-top: 20px;
 }
 .img-fluid {
   display: inline-block;
