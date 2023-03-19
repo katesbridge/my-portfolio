@@ -1,6 +1,7 @@
 body {
   font-family: "Playfair Display", serif;
 }
+
 nav {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -9,7 +10,7 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
-h4 {
+.bio {
   margin-top: 10px;
   text-align: center;
 }
@@ -19,7 +20,7 @@ h4 {
   width: fit-content;
   margin-top: 20px;
 }
-.img-fluid {
+.my-photo {
   display: inline-block;
   text-align: center;
   margin-top: 65px;
@@ -30,8 +31,44 @@ h4 {
   display: flex;
   justify-content: center;
 }
+.projects-header {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 35px;
+}
+.projects-info {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+.container {
+  background-color: #f8f9fa;
+}
+.weather-link {
+  color: #fbce3f;
+  text-decoration: none;
+}
+.weather-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+.title-weather {
+  margin-top: 20px;
+}
 @media (max-width: 600px) {
-  .img-fluid {
+  .my-photo {
     max-width: 25%;
+  }
+  .title-weather {
+    text-align: center;
+  }
+  .weather-photo {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .weather-link {
+    display: block;
+    text-align: center;
   }
 }
