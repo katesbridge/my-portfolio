@@ -5,7 +5,7 @@ nav {
   font-family: "Roboto Condensed", sans-serif;
 }
 h1 {
-  margin-top: 75px;
+  margin-top: 20px;
   text-align: center;
   font-weight: bold;
 }
@@ -17,4 +17,20 @@ h4 {
   display: block;
   margin: auto;
   width: fit-content;
+}
+.img-fluid {
+  display: inline-block;
+  text-align: center;
+  margin-top: 65px;
+  max-width: 12%;
+  max-height: auto;
+}
+.portrait {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .img-fluid {
+    max-width: 25%;
+  }
 }
