@@ -43,6 +43,7 @@ h1 {
 }
 .container {
   background-color: #f8f9fa;
+  border-radius: 13px;
 }
 .weather-link {
   color: #fbce3f;
