@@ -5,7 +5,7 @@ body {
 nav {
   font-family: "Roboto Condensed", sans-serif;
 }
-h1 {
+.name-main {
   margin-top: 20px;
   text-align: center;
   font-weight: bold;
@@ -41,9 +41,15 @@ h1 {
   font-style: italic;
   font-size: 20px;
 }
-.container {
+.index {
   background-color: #f8f9fa;
-  border-radius: 13px;
+  border-radius: 12px;
+  max-height: 450px;
+  max-width: 1060px;
+}
+.weather-photo {
+  max-height: 450px;
+  border-radius: 12px;
 }
 .weather-link {
   color: #fbce3f;
@@ -55,6 +61,26 @@ h1 {
 }
 .title-weather {
   margin-top: 20px;
+}
+.greeting {
+  margin-top: 200px;
+  font-weight: bold;
+}
+.where-from {
+  font-size: large;
+  margin-top: 10px;
+}
+.about-descrip {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 30px;
+  color: #454545;
+}
+.my-photo-full {
+  display: inline-block;
+  border-radius: 7px;
+  margin-top: 150px;
+  margin-left: 40px;
+  max-width: 70%;
 }
 @media (max-width: 600px) {
   .my-photo {
