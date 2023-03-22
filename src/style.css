@@ -98,4 +98,14 @@ nav {
     display: block;
     text-align: center;
   }
+  .my-photo-full {
+    margin-top: 20px;
+  }
+  .greeting {
+    margin-top: 90px;
+  }
+  .about-descrip,
+  .where-from {
+    text-align: center;
+  }
 }
